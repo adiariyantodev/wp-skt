@@ -1,0 +1,155 @@
+[26-Nov-2024 10:29:12 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[26-Nov-2024 13:09:19 UTC] TypeError thrown with message "ltrim(): Argument #1 ($string) must be of type string, array given"
+
+Stacktrace:
+#17 TypeError in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/formatting.php:4467
+#16 ltrim in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/formatting.php:4467
+#15 esc_url in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/subplugins/breakdance-elements/elements/Code_Block/ssr.php:27
+#14 eval in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/subplugins/breakdance-elements/elements/Code_Block/ssr.php:27
+#13 include in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/elements/Element.class.php:243
+#12 Breakdance\Elements\Element:ssr in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/render/ajax-server-side-render.php:49
+#11 Breakdance\Render\serverSideRender in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/ajax/api.php:106
+#10 call_user_func_array in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/ajax/api.php:106
+#9 Breakdance\AJAX\{closure} in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:324
+#8 WP_Hook:apply_filters in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:348
+#7 WP_Hook:do_action in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/plugin.php:517
+#6 do_action in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/ajax/ajax_at_any_url.php:28
+#5 Breakdance\AJAX\see_if_this_is_an_ajax_at_any_url_request_and_if_so_fire_it in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/actions_filters/template_include.php:47
+#4 Breakdance\ActionsFilters\template_include in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:324
+#3 WP_Hook:apply_filters in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/plugin.php:205
+#2 apply_filters in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/template-loader.php:104
+#1 require_once in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-blog-header.php:19
+#0 require in /home/adig2162/public_html/skt.adiariyanto.my.id/index.php:17
+
+[26-Nov-2024 13:09:24 UTC] TypeError thrown with message "ltrim(): Argument #1 ($string) must be of type string, array given"
+
+Stacktrace:
+#17 TypeError in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/formatting.php:4467
+#16 ltrim in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/formatting.php:4467
+#15 esc_url in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/subplugins/breakdance-elements/elements/Code_Block/ssr.php:27
+#14 eval in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/subplugins/breakdance-elements/elements/Code_Block/ssr.php:27
+#13 include in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/elements/Element.class.php:243
+#12 Breakdance\Elements\Element:ssr in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/render/ajax-server-side-render.php:49
+#11 Breakdance\Render\serverSideRender in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/ajax/api.php:106
+#10 call_user_func_array in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/ajax/api.php:106
+#9 Breakdance\AJAX\{closure} in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:324
+#8 WP_Hook:apply_filters in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:348
+#7 WP_Hook:do_action in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/plugin.php:517
+#6 do_action in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/ajax/ajax_at_any_url.php:28
+#5 Breakdance\AJAX\see_if_this_is_an_ajax_at_any_url_request_and_if_so_fire_it in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/actions_filters/template_include.php:47
+#4 Breakdance\ActionsFilters\template_include in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:324
+#3 WP_Hook:apply_filters in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/plugin.php:205
+#2 apply_filters in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/template-loader.php:104
+#1 require_once in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-blog-header.php:19
+#0 require in /home/adig2162/public_html/skt.adiariyanto.my.id/index.php:17
+
+[26-Nov-2024 13:09:41 UTC] TypeError thrown with message "ltrim(): Argument #1 ($string) must be of type string, array given"
+
+Stacktrace:
+#17 TypeError in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/formatting.php:4467
+#16 ltrim in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/formatting.php:4467
+#15 esc_url in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/subplugins/breakdance-elements/elements/Code_Block/ssr.php:27
+#14 eval in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/subplugins/breakdance-elements/elements/Code_Block/ssr.php:27
+#13 include in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/elements/Element.class.php:243
+#12 Breakdance\Elements\Element:ssr in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/render/ajax-server-side-render.php:49
+#11 Breakdance\Render\serverSideRender in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/ajax/api.php:106
+#10 call_user_func_array in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/ajax/api.php:106
+#9 Breakdance\AJAX\{closure} in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:324
+#8 WP_Hook:apply_filters in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:348
+#7 WP_Hook:do_action in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/plugin.php:517
+#6 do_action in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/ajax/ajax_at_any_url.php:28
+#5 Breakdance\AJAX\see_if_this_is_an_ajax_at_any_url_request_and_if_so_fire_it in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/actions_filters/template_include.php:47
+#4 Breakdance\ActionsFilters\template_include in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:324
+#3 WP_Hook:apply_filters in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/plugin.php:205
+#2 apply_filters in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/template-loader.php:104
+#1 require_once in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-blog-header.php:19
+#0 require in /home/adig2162/public_html/skt.adiariyanto.my.id/index.php:17
+
+[29-Nov-2024 00:11:23 UTC] TypeError thrown with message "ltrim(): Argument #1 ($string) must be of type string, WP_Error given"
+
+Stacktrace:
+#17 TypeError in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/formatting.php:4467
+#16 ltrim in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/formatting.php:4467
+#15 esc_url in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/subplugins/breakdance-elements/elements/Code_Block/ssr.php:27
+#14 eval in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/subplugins/breakdance-elements/elements/Code_Block/ssr.php:27
+#13 include in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/elements/Element.class.php:243
+#12 Breakdance\Elements\Element:ssr in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/render/ajax-server-side-render.php:49
+#11 Breakdance\Render\serverSideRender in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/ajax/api.php:106
+#10 call_user_func_array in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/ajax/api.php:106
+#9 Breakdance\AJAX\{closure} in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:324
+#8 WP_Hook:apply_filters in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:348
+#7 WP_Hook:do_action in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/plugin.php:517
+#6 do_action in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/ajax/ajax_at_any_url.php:28
+#5 Breakdance\AJAX\see_if_this_is_an_ajax_at_any_url_request_and_if_so_fire_it in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/actions_filters/template_include.php:47
+#4 Breakdance\ActionsFilters\template_include in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:324
+#3 WP_Hook:apply_filters in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/plugin.php:205
+#2 apply_filters in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/template-loader.php:104
+#1 require_once in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-blog-header.php:19
+#0 require in /home/adig2162/public_html/skt.adiariyanto.my.id/index.php:17
+
+[29-Nov-2024 00:12:00 UTC] TypeError thrown with message "ltrim(): Argument #1 ($string) must be of type string, WP_Error given"
+
+Stacktrace:
+#17 TypeError in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/formatting.php:4467
+#16 ltrim in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/formatting.php:4467
+#15 esc_url in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/subplugins/breakdance-elements/elements/Code_Block/ssr.php:27
+#14 eval in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/subplugins/breakdance-elements/elements/Code_Block/ssr.php:27
+#13 include in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/elements/Element.class.php:243
+#12 Breakdance\Elements\Element:ssr in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/render/ajax-server-side-render.php:49
+#11 Breakdance\Render\serverSideRender in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/ajax/api.php:106
+#10 call_user_func_array in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/ajax/api.php:106
+#9 Breakdance\AJAX\{closure} in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:324
+#8 WP_Hook:apply_filters in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:348
+#7 WP_Hook:do_action in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/plugin.php:517
+#6 do_action in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/ajax/ajax_at_any_url.php:28
+#5 Breakdance\AJAX\see_if_this_is_an_ajax_at_any_url_request_and_if_so_fire_it in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/actions_filters/template_include.php:47
+#4 Breakdance\ActionsFilters\template_include in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:324
+#3 WP_Hook:apply_filters in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/plugin.php:205
+#2 apply_filters in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/template-loader.php:104
+#1 require_once in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-blog-header.php:19
+#0 require in /home/adig2162/public_html/skt.adiariyanto.my.id/index.php:17
+
+[29-Nov-2024 00:12:18 UTC] TypeError thrown with message "ltrim(): Argument #1 ($string) must be of type string, WP_Error given"
+
+Stacktrace:
+#17 TypeError in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/formatting.php:4467
+#16 ltrim in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/formatting.php:4467
+#15 esc_url in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/subplugins/breakdance-elements/elements/Code_Block/ssr.php:27
+#14 eval in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/subplugins/breakdance-elements/elements/Code_Block/ssr.php:27
+#13 include in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/elements/Element.class.php:243
+#12 Breakdance\Elements\Element:ssr in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/render/ajax-server-side-render.php:49
+#11 Breakdance\Render\serverSideRender in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/ajax/api.php:106
+#10 call_user_func_array in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/ajax/api.php:106
+#9 Breakdance\AJAX\{closure} in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:324
+#8 WP_Hook:apply_filters in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:348
+#7 WP_Hook:do_action in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/plugin.php:517
+#6 do_action in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/ajax/ajax_at_any_url.php:28
+#5 Breakdance\AJAX\see_if_this_is_an_ajax_at_any_url_request_and_if_so_fire_it in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/actions_filters/template_include.php:47
+#4 Breakdance\ActionsFilters\template_include in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:324
+#3 WP_Hook:apply_filters in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/plugin.php:205
+#2 apply_filters in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/template-loader.php:104
+#1 require_once in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-blog-header.php:19
+#0 require in /home/adig2162/public_html/skt.adiariyanto.my.id/index.php:17
+
+[29-Nov-2024 00:12:28 UTC] TypeError thrown with message "ltrim(): Argument #1 ($string) must be of type string, WP_Error given"
+
+Stacktrace:
+#17 TypeError in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/formatting.php:4467
+#16 ltrim in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/formatting.php:4467
+#15 esc_url in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/subplugins/breakdance-elements/elements/Code_Block/ssr.php:27
+#14 eval in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/subplugins/breakdance-elements/elements/Code_Block/ssr.php:27
+#13 include in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/elements/Element.class.php:243
+#12 Breakdance\Elements\Element:ssr in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/render/ajax-server-side-render.php:49
+#11 Breakdance\Render\serverSideRender in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/ajax/api.php:106
+#10 call_user_func_array in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/ajax/api.php:106
+#9 Breakdance\AJAX\{closure} in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:324
+#8 WP_Hook:apply_filters in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:348
+#7 WP_Hook:do_action in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/plugin.php:517
+#6 do_action in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/ajax/ajax_at_any_url.php:28
+#5 Breakdance\AJAX\see_if_this_is_an_ajax_at_any_url_request_and_if_so_fire_it in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/actions_filters/template_include.php:47
+#4 Breakdance\ActionsFilters\template_include in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:324
+#3 WP_Hook:apply_filters in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/plugin.php:205
+#2 apply_filters in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/template-loader.php:104
+#1 require_once in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-blog-header.php:19
+#0 require in /home/adig2162/public_html/skt.adiariyanto.my.id/index.php:17
+

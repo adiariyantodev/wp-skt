@@ -1,0 +1,82 @@
+[25-Nov-2024 02:22:49 UTC] Breakdance\AJAX\BreakdanceAjaxHandlerException thrown with message "A valid URL was not provided."
+
+Stacktrace:
+#4 Breakdance\AJAX\BreakdanceAjaxHandlerException in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/ajax/api.php:112
+#3 Breakdance\AJAX\{closure} in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:324
+#2 WP_Hook:apply_filters in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:348
+#1 WP_Hook:do_action in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/plugin.php:517
+#0 do_action in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-admin/admin-ajax.php:192
+
+[25-Nov-2024 02:22:55 UTC] Breakdance\AJAX\BreakdanceAjaxHandlerException thrown with message "A valid URL was not provided."
+
+Stacktrace:
+#4 Breakdance\AJAX\BreakdanceAjaxHandlerException in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/ajax/api.php:112
+#3 Breakdance\AJAX\{closure} in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:324
+#2 WP_Hook:apply_filters in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:348
+#1 WP_Hook:do_action in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/plugin.php:517
+#0 do_action in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-admin/admin-ajax.php:192
+
+[26-Nov-2024 13:10:03 UTC] TypeError thrown with message "ltrim(): Argument #1 ($string) must be of type string, array given"
+
+Stacktrace:
+#21 TypeError in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/formatting.php:4467
+#20 ltrim in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/formatting.php:4467
+#19 esc_url in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/subplugins/breakdance-elements/elements/Code_Block/ssr.php:27
+#18 eval in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/subplugins/breakdance-elements/elements/Code_Block/ssr.php:27
+#17 include in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/elements/Element.class.php:243
+#16 Breakdance\Elements\Element:ssr in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/render/renderer.php:385
+#15 Breakdance\Render\getInnerHtml in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/render/renderer.php:729
+#14 Breakdance\Render\getHtml in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/render/renderer.php:1108
+#13 Breakdance\Render\{closure} in [internal]:0
+#12 array_reduce in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/render/renderer.php:1002
+#11 Breakdance\Render\_render in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/render/renderer.php:1075
+#10 Breakdance\Render\{closure} in [internal]:0
+#9 array_reduce in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/render/renderer.php:1002
+#8 Breakdance\Render\_render in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/render/renderer.php:185
+#7 Breakdance\Render\getRenderedNodes in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/render/cache.php:51
+#6 Breakdance\Render\generateCacheForPost in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/data/save.php:61
+#5 Breakdance\Data\save_document in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/ajax/api.php:106
+#4 call_user_func_array in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/ajax/api.php:106
+#3 Breakdance\AJAX\{closure} in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:324
+#2 WP_Hook:apply_filters in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php:348
+#1 WP_Hook:do_action in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/plugin.php:517
+#0 do_action in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-admin/admin-ajax.php:192
+
+[26-Nov-2024 13:10:22 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/formatting.php:4467
+Stack trace:
+#0 /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/formatting.php(4467): ltrim()
+#1 /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/subplugins/breakdance-elements/elements/Code_Block/ssr.php(27) : eval()'d code(19): esc_url()
+#2 /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/subplugins/breakdance-elements/elements/Code_Block/ssr.php(27): eval()
+#3 /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/elements/Element.class.php(243): include('/home/adig2162/...')
+#4 /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/render/renderer.php(385): Breakdance\Elements\Element::ssr()
+#5 /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/render/renderer.php(729): Breakdance\Render\getInnerHtml()
+#6 /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/render/renderer.php(1108): Breakdance\Render\getHtml()
+#7 [internal function]: Breakdance\Render\{closure}()
+#8 /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/render/renderer.php(1002): array_reduce()
+#9 /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/render/renderer.php(1075): Breakdance\Render\_render()
+#10 [internal function]: Breakdance\Render\{closure}()
+#11 /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/render/renderer.php(1002): array_reduce()
+#12 /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/render/renderer.php(185): Breakdance\Render\_render()
+#13 /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/render/renderer.php(85): Breakdance\Render\getRenderedNodes()
+#14 /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/actions_filters/the_content.php(97): Breakdance\Render\render()
+#15 /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/class-wp-hook.php(324): Breakdance\ActionsFilters\replace_the_content_with_breakdance_content()
+#16 /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#17 /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1933): apply_filters()
+#18 /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(635): WP_REST_Posts_Controller->prepare_item_for_response()
+#19 /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/rest-api/class-wp-rest-server.php(1292): WP_REST_Posts_Controller->get_item()
+#20 /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request()
+#21 /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/rest-api.php(576): WP_REST_Server->dispatch()
+#22 /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/rest-api.php(2957): rest_do_request()
+#23 [internal function]: rest_preload_api_request()
+#24 /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/block-editor.php(753): array_reduce()
+#25 /home/adig2162/public_html/skt.adiariyanto.my.id/wp-admin/edit-form-blocks.php(77): block_editor_rest_api_preload()
+#26 /home/adig2162/public_html/skt.adiariyanto.my.id/wp-admin/post.php(187): require('/home/adig2162/...')
+#27 {main}
+  thrown in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-includes/formatting.php on line 4467
+[09-Jan-2025 07:49:22 UTC] PHP Warning:  Undefined array key "name" in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/forms/custom/custom.php on line 359
+[09-Jan-2025 07:49:22 UTC] PHP Warning:  Undefined array key "required" in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/forms/custom/custom.php on line 341
+[09-Jan-2025 07:49:22 UTC] PHP Warning:  Undefined array key "company" in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/forms/custom/custom.php on line 359
+[09-Jan-2025 07:49:22 UTC] PHP Warning:  Undefined array key "telephone" in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/forms/custom/custom.php on line 359
+[09-Jan-2025 07:49:22 UTC] PHP Warning:  Undefined array key "fax" in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/forms/custom/custom.php on line 359
+[09-Jan-2025 07:49:22 UTC] PHP Warning:  Undefined array key "email" in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/forms/custom/custom.php on line 359
+[09-Jan-2025 07:49:22 UTC] PHP Warning:  Undefined array key "subject" in /home/adig2162/public_html/skt.adiariyanto.my.id/wp-content/plugins/breakdance/plugin/forms/custom/custom.php on line 359
